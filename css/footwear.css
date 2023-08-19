@@ -1,0 +1,50 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+
+.footwear{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        letter-spacing: 1px;
+        font-size: x-large;
+}
+
+.footwear .header a{
+        display: grid;
+        padding: 2px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+}
+
+.footwear .header a:hover{
+        color: orangered;
+        text-decoration: underline;
+}
+
+.footwear .copy-rights p{
+        color: white;
+        cursor: pointer;
+        font-weight: bolder;
+}
+
+.footwear .copy-rights p:hover{
+        color: orangered;
+        text-decoration: underline;
+}
+
+.footwear .social-media a img{
+        background-color: white;
+        padding: 3px;
+        border-radius: 5px;
+        color: white;
+}
+
+.footwear .social-media a img:hover{
+        border: 3px orangered solid;
+}
